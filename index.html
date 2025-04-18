@@ -4,12 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi Página de contacto</title>
+   <!-- Aquí se enlaza el archivo CSS -->
+   <link rel="stylesheet" href="estilos.css"> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Espaciado para todo el cuerpo de la página */
+    body {
+      padding: 20px;
+      margin: 0;
+    }
+
+    /* Espaciado para el encabezado */
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    /* Espaciado entre los párrafos */
+    p {
+      margin-bottom: 20px;
+    }
+
+    /* Espaciado para los botones */
+    button {
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+
+    /* Espaciado para el pie de página */
+    footer {
+      margin-top: 30px;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    footer i {
+      margin-right: 10px;
+    }
+
+    /* Ajuste para el contenedor de la barra de navegación */
+    .navbar {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#">MiSitio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -26,9 +67,10 @@
   </nav>
 
   <main class="container">
-    <h1>Bienvenido a Mi Página </h1>
-    <p>Este es un ejemplo de una página responsive y estética con colores pastel rosados.</p>
-    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+    <h1>Bienvenido</h1>
+    <p>presentación.</p>
+    <button onclick="mostrarMensaje()" class="btn btn-primary">Servicios</button>
+    <button onclick="mostrarMensaje()" class="btn btn-secondary">Más información</button>
   </main>
 
   <footer>

@@ -1,24 +1,12 @@
-<link rel="stylesheet" href="estilos.css">
+/* estilos.css */
 body {
-    background-color: #ffe6f0;
-    color: #4b2c2c;
-    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
   }
   
   h1 {
-    color: #cc6699;
+    color: #d63384; /* Color rosa */
   }
   
-  .navbar {
-    background-color: #ffcce6 !important;
-  }
-  
-  footer {
-    background-color: #f9d6e5;
-    color: #333;
-  }
-  
-  footer i {
-    color: #cc6699;
-    font-size: 1.5rem;
+  button {
+    margin: 10px;
   }
